@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>sudent from1</title>
+        <link rel="stylesheet" href="css1.css">
+    </head>
+    <body>
+        <h1>STUDENT REGISTRATION</h1>
+        <hr>
+        <form name='registration' onSubmit="return formValidation();">
+            <table align="right">
+                <img src="image.jpg" style="opacity: 0.75;" width="750px" height="480px">
+                <tr>
+                    <td>
+                        <label class="required">Name:</label>
+                    </td>
+                    <td>
+                        <input type="text" placeholder="Your Name" name="username" >
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label class="required">Phone Number:</label>
+                    </td>
+                    <td>
+                        <input type="phone" name="userid" placeholder="+91**********">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label class="required">Email Id:</label>
+                    </td>
+                    <td>
+                        <input type="email" name="email" placeholder="mailid@gmail.com">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label class="required">Password:</label>
+                    </td>
+                    <td>
+                        <input type="password" name="passid" placeholder="Password">
+                    </td>
+                </tr>
+            <tr>
+                <td>
+                    <label class="required">Gender:</label>
+                </td>
+                <td>
+                    <input type="radio" name="msex">Male
+                    <input type="radio" name="fsex">Female
+                    <input type="radio" name="gender">Other
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label class="required">Date Of Birth:</label>
+                </td>
+                <td>
+                    <input type="date">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Hobbies:
+                </td>
+                <td>
+                    <textarea placeholder="ex:playing,.."></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label class="required">Education Qualification: </label>
+                </td>
+                <td>
+                    <select>
+                        <option>Select Option</option>
+                        <option>10+2</option>
+                        <option>Graduation</option>
+                        <option>Postgraduation</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Address:
+                </td>
+                <td>
+                    <textarea rows="5" col="15" name="address" placeholder="Address"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Pincode:
+                </td>
+                <td>
+                    <input type="pincode" name="zip" placeholder="Pincode">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label class="required">Select your avatar:</label>
+                </td>
+                <td>
+                    <input type="file" id="myFile" name="filename">
+                </td>
+            </tr>
+            <tr>
+                <td align="right" cursor: pointer;>
+                    <input type="submit" name="submit" value="Submit">
+                    <input type="reset" value="Reset">
+                </td>
+            </tr>
+            </table>
+            </form>
+        </body>
+</html>
